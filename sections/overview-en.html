@@ -1,0 +1,947 @@
+<h2 id="overv" class="list">Meta-Learning Ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#Accuracy" title="https://purl.archive.org/domain/mtl#Accuracy">Accuracy</a>
+   </li>
+   <li>
+      <a href="#ActivationFunction"
+         title="https://purl.archive.org/domain/mtl#ActivationFunction">
+         <span>Activation Function</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Assortativity"
+         title="https://purl.archive.org/domain/mtl#Assortativity">Assortativity</a>
+   </li>
+   <li>
+      <a href="#AttributeConcentrationParameter"
+         title="https://purl.archive.org/domain/mtl#AttributeConcentrationParameter">
+         <span>Attribute Concentration Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#AttributeConcentration"
+         title="https://purl.archive.org/domain/mtl#AttributeConcentration">AttributeConcentration</a>
+   </li>
+   <li>
+      <a href="#AttributesEntropy"
+         title="https://purl.archive.org/domain/mtl#AttributesEntropy">AttributeEntropy</a>
+   </li>
+   <li>
+      <a href="#AttributesEntropyParameter"
+         title="https://purl.archive.org/domain/mtl#AttributesEntropyParameter">
+         <span>Attributes Entropy Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#AUC" title="https://purl.archive.org/domain/mtl#AUC">AUC</a>
+   </li>
+   <li>
+      <a href="#AuthorityScore"
+         title="https://purl.archive.org/domain/mtl#AuthorityScore">AuthorityScore</a>
+   </li>
+   <li>
+      <a href="#BatchSize" title="https://purl.archive.org/domain/mtl#BatchSize">
+         <span>Batch Size</span>
+      </a>
+   </li>
+   <li>
+      <a href="#BestNode" title="https://purl.archive.org/domain/mtl#BestNode">BestNode</a>
+   </li>
+   <li>
+      <a href="#BetweennessCentrality"
+         title="https://purl.archive.org/domain/mtl#BetweennessCentrality">BetweennessCentrality</a>
+   </li>
+   <li>
+      <a href="#BoundaryComplexity"
+         title="https://purl.archive.org/domain/mtl#BoundaryComplexity">BoundaryComplexity</a>
+   </li>
+   <li>
+      <a href="#C1" title="https://purl.archive.org/domain/mtl#C1">C1</a>
+   </li>
+   <li>
+      <a href="#C2" title="https://purl.archive.org/domain/mtl#C2">C2</a>
+   </li>
+   <li>
+      <a href="#CanonicalCorrelation"
+         title="https://purl.archive.org/domain/mtl#CanonicalCorrelation">CanonicalCorrelation</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dqv#Category" title="http://www.w3.org/ns/dqv#Category">Category</a>
+   </li>
+   <li>
+      <a href="#ClassEntropyParameter"
+         title="https://purl.archive.org/domain/mtl#ClassEntropyParameter">
+         <span>Class Entropy Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#ClassConcentration"
+         title="https://purl.archive.org/domain/mtl#ClassConcentration">ClassConcentration</a>
+   </li>
+   <li>
+      <a href="#ClassEntropy" title="https://purl.archive.org/domain/mtl#ClassEntropy">ClassEntropy</a>
+   </li>
+   <li>
+      <a href="#ClassificationQuality"
+         title="https://purl.archive.org/domain/mtl#ClassificationQuality">ClassificationQuality</a>
+   </li>
+   <li>
+      <a href="#ClassImbalance"
+         title="https://purl.archive.org/domain/mtl#ClassImbalance">ClassImbalance</a>
+   </li>
+   <li>
+      <a href="#ClassImbalanceRootcause"
+         title="https://purl.archive.org/domain/mtl#ClassImbalanceRootcause">ClassImbalanceRootcause</a>
+   </li>
+   <li>
+      <a href="#ClassOverlap" title="https://purl.archive.org/domain/mtl#ClassOverlap">ClassOverlap</a>
+   </li>
+   <li>
+      <a href="#ClassOverlapRootcause"
+         title="https://purl.archive.org/domain/mtl#ClassOverlapRootcause">ClassOverlapRootcause</a>
+   </li>
+   <li>
+      <a href="#ClosenessCentrality"
+         title="https://purl.archive.org/domain/mtl#ClosenessCentrality">ClosenessCentrality</a>
+   </li>
+   <li>
+      <a href="#ClusteringCoefficient"
+         title="https://purl.archive.org/domain/mtl#ClusteringCoefficient">ClusteringCoefficient</a>
+   </li>
+   <li>
+      <a href="#Completeness" title="https://purl.archive.org/domain/mtl#Completeness">Completeness</a>
+   </li>
+   <li>
+      <a href="#CompletenessRootcause"
+         title="https://purl.archive.org/domain/mtl#CompletenessRootcause">CompletenessRootcause</a>
+   </li>
+   <li>
+      <a href="#Complexity" title="https://purl.archive.org/domain/mtl#Complexity">Complexity</a>
+   </li>
+   <li>
+      <a href="#Conciseness" title="https://purl.archive.org/domain/mtl#Conciseness">Conciseness</a>
+   </li>
+   <li>
+      <a href="#Constraint" title="https://purl.archive.org/domain/mtl#Constraint">Constraint</a>
+   </li>
+   <li>
+      <a href="#Contrast" title="https://purl.archive.org/domain/mtl#Contrast">Contrast</a>
+   </li>
+   <li>
+      <a href="#Coreness" title="https://purl.archive.org/domain/mtl#Coreness">Coreness</a>
+   </li>
+   <li>
+      <a href="#Correlation" title="https://purl.archive.org/domain/mtl#Correlation">Correlation</a>
+   </li>
+   <li>
+      <a href="#CorrelationParameter"
+         title="https://purl.archive.org/domain/mtl#CorrelationParameter">
+         <span>Correlation Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#CorrelationDegreeCentrality"
+         title="https://purl.archive.org/domain/mtl#CorrelationDegreeCentrality">CorrelationDegreeCentrality</a>
+   </li>
+   <li>
+      <a href="#Covariance" title="https://purl.archive.org/domain/mtl#Covariance">Covariance</a>
+   </li>
+   <li>
+      <a href="#CovarianceParameter"
+         title="https://purl.archive.org/domain/mtl#CovarianceParameter">
+         <span>Covariance Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#DataSetQuality"
+         title="https://purl.archive.org/domain/mtl#DataSetQuality">DataSetQuality</a>
+   </li>
+   <li>
+      <a href="#Degree" title="https://purl.archive.org/domain/mtl#Degree">Degree</a>
+   </li>
+   <li>
+      <a href="#Diameter" title="https://purl.archive.org/domain/mtl#Diameter">Diameter</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dqv#Dimension" title="http://www.w3.org/ns/dqv#Dimension">
+         <span>Dimension</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Diversity" title="https://purl.archive.org/domain/mtl#Diversity">Diversity</a>
+   </li>
+   <li>
+      <a href="#Eccentricity"
+         title="https://purl.archive.org/domain/mtl#Eccentricity">Eccentricity</a>
+   </li>
+   <li>
+      <a href="#EdgeDensity" title="https://purl.archive.org/domain/mtl#EdgeDensity">EdgeDensity</a>
+   </li>
+   <li>
+      <a href="#EigenValuesParameter"
+         title="https://purl.archive.org/domain/mtl#EigenValuesParameter">
+         <span>Eigen Values Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#EigenValues" title="https://purl.archive.org/domain/mtl#EigenValues">EigenValues</a>
+   </li>
+   <li>
+      <a href="#EigenVectorCentrality"
+         title="https://purl.archive.org/domain/mtl#EigenVectorCentrality">EigenVectorCentrality</a>
+   </li>
+   <li>
+      <a href="#EliteNNPerformance"
+         title="https://purl.archive.org/domain/mtl#EliteNNPerformance">EliteNNPerformance</a>
+   </li>
+   <li>
+      <a href="#Energy" title="https://purl.archive.org/domain/mtl#Energy">Energy</a>
+   </li>
+   <li>
+      <a href="#EqNumberOfAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#EqNumberOfAttributesParameter">
+         <span>Eq Number Of Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#EqNumberOfAttributes"
+         title="https://purl.archive.org/domain/mtl#EqNumberOfAttributes">EqNumberOfAttributes</a>
+   </li>
+   <li>
+      <a href="#F1" title="https://purl.archive.org/domain/mtl#F1">F1</a>
+   </li>
+   <li>
+      <a href="#F1Score" title="https://purl.archive.org/domain/mtl#F1Score">F1Score</a>
+   </li>
+   <li>
+      <a href="#F1v" title="https://purl.archive.org/domain/mtl#F1v">F1v</a>
+   </li>
+   <li>
+      <a href="#F2" title="https://purl.archive.org/domain/mtl#F2">F2</a>
+   </li>
+   <li>
+      <a href="#F3" title="https://purl.archive.org/domain/mtl#F3">F3</a>
+   </li>
+   <li>
+      <a href="#F4" title="https://purl.archive.org/domain/mtl#F4">F4</a>
+   </li>
+   <li>
+      <a href="#FrequencyClass"
+         title="https://purl.archive.org/domain/mtl#FrequencyClass">FrequencyClass</a>
+   </li>
+   <li>
+      <a href="#Gamma" title="https://purl.archive.org/domain/mtl#Gamma">
+         <span>Gamma</span>
+      </a>
+   </li>
+   <li>
+      <a href="#GeometricMeanParameter"
+         title="https://purl.archive.org/domain/mtl#GeometricMeanParameter">
+         <span>Geometric Mean Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#GeometricMean"
+         title="https://purl.archive.org/domain/mtl#GeometricMean">GeometricMean</a>
+   </li>
+   <li>
+      <a href="#GraphBased" title="https://purl.archive.org/domain/mtl#GraphBased">GraphBased</a>
+   </li>
+   <li>
+      <a href="#Gravity" title="https://purl.archive.org/domain/mtl#Gravity">Gravity</a>
+   </li>
+   <li>
+      <a href="#HarmonicMeanParameter"
+         title="https://purl.archive.org/domain/mtl#HarmonicMeanParameter">
+         <span>Harmonic Mean Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#HarmonicMean"
+         title="https://purl.archive.org/domain/mtl#HarmonicMean">HarmonicMean</a>
+   </li>
+   <li>
+      <a href="#HyperParameter"
+         title="https://purl.archive.org/domain/mtl#HyperParameter">HyperParameter</a>
+   </li>
+   <li>
+      <a href="#ImageBased" title="https://purl.archive.org/domain/mtl#ImageBased">ImageBased</a>
+   </li>
+   <li>
+      <a href="#ImgCorrelation"
+         title="https://purl.archive.org/domain/mtl#ImgCorrelation">ImgCorrelation</a>
+   </li>
+   <li>
+      <a href="#ImgDiffEntropy"
+         title="https://purl.archive.org/domain/mtl#ImgDiffEntropy">ImgDiffEntropy</a>
+   </li>
+   <li>
+      <a href="#ImgDiffVariance"
+         title="https://purl.archive.org/domain/mtl#ImgDiffVariance">ImgDiffVariance</a>
+   </li>
+   <li>
+      <a href="#ImgEntropy" title="https://purl.archive.org/domain/mtl#ImgEntropy">ImgEntropy</a>
+   </li>
+   <li>
+      <a href="#ImgHomogeneity"
+         title="https://purl.archive.org/domain/mtl#ImgHomogeneity">ImgHomogeneity</a>
+   </li>
+   <li>
+      <a href="#ImgVariance" title="https://purl.archive.org/domain/mtl#ImgVariance">ImgVariance</a>
+   </li>
+   <li>
+      <a href="#InformationalMeasureCorrelation"
+         title="https://purl.archive.org/domain/mtl#InformationalMeasureCorrelation">InformationalMeasureCorrelation</a>
+   </li>
+   <li>
+      <a href="#InformationTheoretical"
+         title="https://purl.archive.org/domain/mtl#InformationTheoretical">InformationTheoretical</a>
+   </li>
+   <li>
+      <a href="#InterquartileRangeParameter"
+         title="https://purl.archive.org/domain/mtl#InterquartileRangeParameter">
+         <span>Interquartile Range Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#InterquartileRange"
+         title="https://purl.archive.org/domain/mtl#InterquartileRange">InterquartileRange</a>
+   </li>
+   <li>
+      <a href="#Intrinsic" title="https://purl.archive.org/domain/mtl#Intrinsic">Intrinsic</a>
+   </li>
+   <li>
+      <a href="#JointEntropy"
+         title="https://purl.archive.org/domain/mtl#JointEntropy">JointEntropy</a>
+   </li>
+   <li>
+      <a href="#Kernel" title="https://purl.archive.org/domain/mtl#Kernel">
+         <span>Kernel</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Kurtosis" title="https://purl.archive.org/domain/mtl#Kurtosis">Kurtosis</a>
+   </li>
+   <li>
+      <a href="#KurtosisParameter"
+         title="https://purl.archive.org/domain/mtl#KurtosisParameter">
+         <span>Kurtosis Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#L1" title="https://purl.archive.org/domain/mtl#L1">L1</a>
+   </li>
+   <li>
+      <a href="#L2" title="https://purl.archive.org/domain/mtl#L2">L2</a>
+   </li>
+   <li>
+      <a href="#L3" title="https://purl.archive.org/domain/mtl#L3">L3</a>
+   </li>
+   <li>
+      <a href="#LabelNoise" title="https://purl.archive.org/domain/mtl#LabelNoise">LabelNoise</a>
+   </li>
+   <li>
+      <a href="#LabelNoiseRootcause"
+         title="https://purl.archive.org/domain/mtl#LabelNoiseRootcause">LabelNoiseRootcause</a>
+   </li>
+   <li>
+      <a href="#Landmarking" title="https://purl.archive.org/domain/mtl#Landmarking">Landmarking</a>
+   </li>
+   <li>
+      <a href="#LearningRate"
+         title="https://purl.archive.org/domain/mtl#LearningRate">
+         <span>Learning Rate</span>
+      </a>
+   </li>
+   <li>
+      <a href="#LearningFromModelEvaluation"
+         title="https://purl.archive.org/domain/mtl#LearningFromModelEvaluation">LearningFromModelEvaluation</a>
+   </li>
+   <li>
+      <a href="#LearningFromTaskProperties"
+         title="https://purl.archive.org/domain/mtl#LearningFromTaskProperties">LearningFromTaskProperties</a>
+   </li>
+   <li>
+      <a href="#LearningToOptimize"
+         title="https://purl.archive.org/domain/mtl#LearningToOptimize">LearningToOptimize</a>
+   </li>
+   <li>
+      <a href="#LearningToTransfer"
+         title="https://purl.archive.org/domain/mtl#LearningToTransfer">LearningToTransfer</a>
+   </li>
+   <li>
+      <a href="#Leaves" title="https://purl.archive.org/domain/mtl#Leaves">Leaves</a>
+   </li>
+   <li>
+      <a href="#LeavesBranch"
+         title="https://purl.archive.org/domain/mtl#LeavesBranch">LeavesBranch</a>
+   </li>
+   <li>
+      <a href="#LeavesCorroboration"
+         title="https://purl.archive.org/domain/mtl#LeavesCorroboration">LeavesCorroboration</a>
+   </li>
+   <li>
+      <a href="#LeavesHomogeneity"
+         title="https://purl.archive.org/domain/mtl#LeavesHomogeneity">LeavesHomogeneity</a>
+   </li>
+   <li>
+      <a href="#LeavesPerClass"
+         title="https://purl.archive.org/domain/mtl#LeavesPerClass">LeavesPerClass</a>
+   </li>
+   <li>
+      <a href="#LinearDiscriminantClassifier"
+         title="https://purl.archive.org/domain/mtl#LinearDiscriminantClassifier">LinearDiscriminantClassifier</a>
+   </li>
+   <li>
+      <a href="#LocalScan" title="https://purl.archive.org/domain/mtl#LocalScan">LocalScan</a>
+   </li>
+   <li>
+      <a href="#LSC" title="https://purl.archive.org/domain/mtl#LSC">LSC</a>
+   </li>
+   <li>
+      <a href="#MAE" title="https://purl.archive.org/domain/mtl#MAE">MAE</a>
+   </li>
+   <li>
+      <a href="#MaxDepth" title="https://purl.archive.org/domain/mtl#MaxDepth">
+         <span>Max Depth</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MaxFeatures" title="https://purl.archive.org/domain/mtl#MaxFeatures">
+         <span>Max Features</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MaxIterations"
+         title="https://purl.archive.org/domain/mtl#MaxIterations">
+         <span>Max Iterations</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MaximalCorrelationCoefficient"
+         title="https://purl.archive.org/domain/mtl#MaximalCorrelationCoefficient">MaximalCorrelationCoefficient</a>
+   </li>
+   <li>
+      <a href="#MaximumOfAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#MaximumOfAttributesParameter">
+         <span>Maximum Of Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MaximumOfAttributes"
+         title="https://purl.archive.org/domain/mtl#MaximumOfAttributes">MaximumOfAttributes</a>
+   </li>
+   <li>
+      <a href="#Mean" title="https://purl.archive.org/domain/mtl#Mean">Mean</a>
+   </li>
+   <li>
+      <a href="#MeanOfAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#MeanOfAttributesParameter">
+         <span>Mean Of Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MeanOfAttributes"
+         title="https://purl.archive.org/domain/mtl#MeanOfAttributes">MeanOfAttributes</a>
+   </li>
+   <li>
+      <a href="#MedianAbsoluteDeviationParameter"
+         title="https://purl.archive.org/domain/mtl#MedianAbsoluteDeviationParameter">
+         <span>Median Absolute Deviation Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MedianOfAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#MedianOfAttributesParameter">
+         <span>Median Of Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MedianAbsoluteDeviation"
+         title="https://purl.archive.org/domain/mtl#MedianAbsoluteDeviation">MedianAbsoluteDeviation</a>
+   </li>
+   <li>
+      <a href="#MedianOfAttributes"
+         title="https://purl.archive.org/domain/mtl#MedianOfAttributes">MedianOfAttributes</a>
+   </li>
+   <li>
+      <a href="#MetaFeatureParameter"
+         title="https://purl.archive.org/domain/mtl#MetaFeatureParameter">
+         <span>Meta Feature Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MetaFeatures"
+         title="https://purl.archive.org/domain/mtl#MetaFeatures">MetaFeatures</a>
+   </li>
+   <li>
+      <a href="#MetaLearningAlgorithm"
+         title="https://purl.archive.org/domain/mtl#MetaLearningAlgorithm">MetaLearningAlgorithm</a>
+   </li>
+   <li>
+      <a href="#MetaQuality" title="https://purl.archive.org/domain/mtl#MetaQuality">MetaQuality</a>
+   </li>
+   <li>
+      <a href="#MinSamplesLeaf"
+         title="https://purl.archive.org/domain/mtl#MinSamplesLeaf">
+         <span>Min Samples Leaf</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MinSamplesSplit"
+         title="https://purl.archive.org/domain/mtl#MinSamplesSplit">
+         <span>Min Samples Split</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MinimumOfAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#MinimumOfAttributesParameter">
+         <span>Minimum Of Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MinimumOfAttributes"
+         title="https://purl.archive.org/domain/mtl#MinimumOfAttributes">MinimumOfAttributes</a>
+   </li>
+   <li>
+      <a href="#MissingValueAnalysis"
+         title="https://purl.archive.org/domain/mtl#MissingValueAnalysis">MissingValueAnalysis</a>
+   </li>
+   <li>
+      <a href="#ModelBased" title="https://purl.archive.org/domain/mtl#ModelBased">ModelBased</a>
+   </li>
+   <li>
+      <a href="#Modularity" title="https://purl.archive.org/domain/mtl#Modularity">Modularity</a>
+   </li>
+   <li>
+      <a href="#MutualInformation"
+         title="https://purl.archive.org/domain/mtl#MutualInformation">MutualInformation</a>
+   </li>
+   <li>
+      <a href="#N1" title="https://purl.archive.org/domain/mtl#N1">N1</a>
+   </li>
+   <li>
+      <a href="#N2" title="https://purl.archive.org/domain/mtl#N2">N2</a>
+   </li>
+   <li>
+      <a href="#N3" title="https://purl.archive.org/domain/mtl#N3">N3</a>
+   </li>
+   <li>
+      <a href="#N4" title="https://purl.archive.org/domain/mtl#N4">N4</a>
+   </li>
+   <li>
+      <a href="#NaiveBayesPerfomance"
+         title="https://purl.archive.org/domain/mtl#NaiveBayesPerfomance">NaiveBayesPerfomance</a>
+   </li>
+   <li>
+      <a href="#Nodes" title="https://purl.archive.org/domain/mtl#Nodes">Nodes</a>
+   </li>
+   <li>
+      <a href="#NodesPerAttributes"
+         title="https://purl.archive.org/domain/mtl#NodesPerAttributes">NodesPerAttributes</a>
+   </li>
+   <li>
+      <a href="#NodesPerInstances"
+         title="https://purl.archive.org/domain/mtl#NodesPerInstances">NodesPerInstances</a>
+   </li>
+   <li>
+      <a href="#NodesPerLevel"
+         title="https://purl.archive.org/domain/mtl#NodesPerLevel">NodesPerLevel</a>
+   </li>
+   <li>
+      <a href="#NodesRepeated"
+         title="https://purl.archive.org/domain/mtl#NodesRepeated">NodesRepeated</a>
+   </li>
+   <li>
+      <a href="#NoiseSignalRatioParameter"
+         title="https://purl.archive.org/domain/mtl#NoiseSignalRatioParameter">
+         <span>Noise Signal Ratio Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfAttrwithNormalDistributionParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfAttrwithNormalDistributionParameter">
+         <span>Number Of Attrwith Normal Distribution Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfBinaryAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfBinaryAttributesParameter">
+         <span>Number Of Binary Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfClassesParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfClassesParameter">
+         <span>Number Of Classes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfClusters"
+         title="https://purl.archive.org/domain/mtl#NumberOfClusters">
+         <span>Number Of Clusters</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfEpochs"
+         title="https://purl.archive.org/domain/mtl#NumberOfEpochs">
+         <span>Number Of Epochs</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfFeaturesParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfFeaturesParameter">
+         <span>Number Of Features Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfHighlyCorrelatedAttributesParameters"
+         title="https://purl.archive.org/domain/mtl#NumberOfHighlyCorrelatedAttributesParameters">
+         <span>Number Of Highly Correlated Attributes Parameters</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfInstancesParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfInstancesParameter">
+         <span>Number Of Instances Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfLayers"
+         title="https://purl.archive.org/domain/mtl#NumberOfLayers">
+         <span>Number Of Layers</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfNeuronsPerLayer"
+         title="https://purl.archive.org/domain/mtl#NumberOfNeuronsPerLayer">
+         <span>Number Of Neurons Per Layer</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfNumericAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfNumericAttributesParameter">
+         <span>Number Of Numeric Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfOutliersParameter"
+         title="https://purl.archive.org/domain/mtl#NumberOfOutliersParameter">
+         <span>Number Of Outliers Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#NumberOfAttrwithNormalDistribution"
+         title="https://purl.archive.org/domain/mtl#NumberOfAttrwithNormalDistribution">NumberOfAttrwithNormalDistribution</a>
+   </li>
+   <li>
+      <a href="#NumberOfBinaryAttributes"
+         title="https://purl.archive.org/domain/mtl#NumberOfBinaryAttributes">NumberOfBinaryAttributes</a>
+   </li>
+   <li>
+      <a href="#NumberOfClasses"
+         title="https://purl.archive.org/domain/mtl#NumberOfClasses">NumberOfClasses</a>
+   </li>
+   <li>
+      <a href="#NumberOfCommunities"
+         title="https://purl.archive.org/domain/mtl#NumberOfCommunities">NumberOfCommunities</a>
+   </li>
+   <li>
+      <a href="#NumberOfDiscriminantFunctions"
+         title="https://purl.archive.org/domain/mtl#NumberOfDiscriminantFunctions">NumberOfDiscriminantFunctions</a>
+   </li>
+   <li>
+      <a href="#NumberOfEdges"
+         title="https://purl.archive.org/domain/mtl#NumberOfEdges">NumberOfEdges</a>
+   </li>
+   <li>
+      <a href="#NumberOfGroups"
+         title="https://purl.archive.org/domain/mtl#NumberOfGroups">NumberOfGroups</a>
+   </li>
+   <li>
+      <a href="#NumberOfHighlyCorrelatedAttributes"
+         title="https://purl.archive.org/domain/mtl#NumberOfHighlyCorrelatedAttributes">NumberOfHighlyCorrelatedAttributes</a>
+   </li>
+   <li>
+      <a href="#NumberOfNumericAttributes"
+         title="https://purl.archive.org/domain/mtl#NumberOfNumericAttributes">NumberOfNumericAttributes</a>
+   </li>
+   <li>
+      <a href="#NumberOfOutliers"
+         title="https://purl.archive.org/domain/mtl#NumberOfOutliers">NumberOfOutliers</a>
+   </li>
+   <li>
+      <a href="#NumberOfTriangles"
+         title="https://purl.archive.org/domain/mtl#NumberOfTriangles">NumberOfTriangles</a>
+   </li>
+   <li>
+      <a href="#OneNNPerformance"
+         title="https://purl.archive.org/domain/mtl#OneNNPerformance">OneNNPerformance</a>
+   </li>
+   <li>
+      <a href="#OutlierDetection"
+         title="https://purl.archive.org/domain/mtl#OutlierDetection">OutlierDetection</a>
+   </li>
+   <li>
+      <a href="#OutliersRootcause"
+         title="https://purl.archive.org/domain/mtl#OutliersRootcause">OutliersRootcause</a>
+   </li>
+   <li>
+      <a href="#PageRank" title="https://purl.archive.org/domain/mtl#PageRank">PageRank</a>
+   </li>
+   <li>
+      <a href="#Penalty" title="https://purl.archive.org/domain/mtl#Penalty">
+         <span>Penalty</span>
+      </a>
+   </li>
+   <li>
+      <a href="#PerformanceMetrics"
+         title="https://purl.archive.org/domain/mtl#PerformanceMetrics">PerformanceMetrics</a>
+   </li>
+   <li>
+      <a href="#Precision" title="https://purl.archive.org/domain/mtl#Precision">Precision</a>
+   </li>
+   <li>
+      <a href="#ProportionOfAttrToInstancesParameter"
+         title="https://purl.archive.org/domain/mtl#ProportionOfAttrToInstancesParameter">
+         <span>Proportion Of Attr To Instances Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#ProportionOfInstancesPerFeatureParameter"
+         title="https://purl.archive.org/domain/mtl#ProportionOfInstancesPerFeatureParameter">
+         <span>Proportion Of Instances Per Feature Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#ProportionOfAttrToInstances"
+         title="https://purl.archive.org/domain/mtl#ProportionOfAttrToInstances">ProportionOfAttrToInstances</a>
+   </li>
+   <li>
+      <a href="#ProportionOfCatToNumeric"
+         title="https://purl.archive.org/domain/mtl#ProportionOfCatToNumeric">ProportionOfCatToNumeric</a>
+   </li>
+   <li>
+      <a href="#http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#ProportionOfInstancesPerFeature"
+         title="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#ProportionOfInstancesPerFeature">ProportionOfInstancePerFeature</a>
+   </li>
+   <li>
+      <a href="#ProportionOfNumToCategoricalAttributes"
+         title="https://purl.archive.org/domain/mtl#ProportionOfNumToCategoricalAttributes">ProportionOfNumToCategoricalAttributes</a>
+   </li>
+   <li>
+      <a href="#RandomNode" title="https://purl.archive.org/domain/mtl#RandomNode">RandomNode</a>
+   </li>
+   <li>
+      <a href="#Range" title="https://purl.archive.org/domain/mtl#Range">Range</a>
+   </li>
+   <li>
+      <a href="#RangeParameter"
+         title="https://purl.archive.org/domain/mtl#RangeParameter">
+         <span>Range Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Recall" title="https://purl.archive.org/domain/mtl#Recall">Recall</a>
+   </li>
+   <li>
+      <a href="#RegressionQuality"
+         title="https://purl.archive.org/domain/mtl#RegressionQuality">RegressionQuality</a>
+   </li>
+   <li>
+      <a href="#RegularizationStrength"
+         title="https://purl.archive.org/domain/mtl#RegularizationStrength">
+         <span>Regularization Strength</span>
+      </a>
+   </li>
+   <li>
+      <a href="#RMSE" title="https://purl.archive.org/domain/mtl#RMSE">RMSE</a>
+   </li>
+   <li>
+      <a href="#RootCauseAnalysis"
+         title="https://purl.archive.org/domain/mtl#RootCauseAnalysis">RootCauseAnalysis</a>
+   </li>
+   <li>
+      <a href="#Simple" title="https://purl.archive.org/domain/mtl#Simple">Simple</a>
+   </li>
+   <li>
+      <a href="#Skewness" title="https://purl.archive.org/domain/mtl#Skewness">Skewness</a>
+   </li>
+   <li>
+      <a href="#SkewnessParameter"
+         title="https://purl.archive.org/domain/mtl#SkewnessParameter">
+         <span>Skewness Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Solver" title="https://purl.archive.org/domain/mtl#Solver">
+         <span>Solver</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Sparsity" title="https://purl.archive.org/domain/mtl#Sparsity">Sparsity</a>
+   </li>
+   <li>
+      <a href="#SparsityParameter"
+         title="https://purl.archive.org/domain/mtl#SparsityParameter">
+         <span>Sparsity Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Statistical" title="https://purl.archive.org/domain/mtl#Statistical">Statistical</a>
+   </li>
+   <li>
+      <a href="#StatTestHomogeneityOfCovariance"
+         title="https://purl.archive.org/domain/mtl#StatTestHomogeneityOfCovariance">StatTestHomogeneityOfCovariance</a>
+   </li>
+   <li>
+      <a href="#StdDevOfAttributesParameter"
+         title="https://purl.archive.org/domain/mtl#StdDevOfAttributesParameter">
+         <span>Std Dev Of Attributes Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#StdDev" title="https://purl.archive.org/domain/mtl#StdDev">StdDev</a>
+   </li>
+   <li>
+      <a href="#StdDevOfAttributes"
+         title="https://purl.archive.org/domain/mtl#StdDevOfAttributes">StdDevOfAttributes</a>
+   </li>
+   <li>
+      <a href="#Strength" title="https://purl.archive.org/domain/mtl#Strength">Strength</a>
+   </li>
+   <li>
+      <a href="#SumAverage" title="https://purl.archive.org/domain/mtl#SumAverage">SumAverage</a>
+   </li>
+   <li>
+      <a href="#SumEntropy" title="https://purl.archive.org/domain/mtl#SumEntropy">SumEntropy</a>
+   </li>
+   <li>
+      <a href="#SumVariance" title="https://purl.archive.org/domain/mtl#SumVariance">SumVariance</a>
+   </li>
+   <li>
+      <a href="#SyntaxAccuracy"
+         title="https://purl.archive.org/domain/mtl#SyntaxAccuracy">SyntaxAccuracy</a>
+   </li>
+   <li>
+      <a href="#SyntaxAccuracyRootcause"
+         title="https://purl.archive.org/domain/mtl#SyntaxAccuracyRootcause">SyntaxAccuracyRootcause</a>
+   </li>
+   <li>
+      <a href="#T1" title="https://purl.archive.org/domain/mtl#T1">T1</a>
+   </li>
+   <li>
+      <a href="#T2" title="https://purl.archive.org/domain/mtl#T2">T2</a>
+   </li>
+   <li>
+      <a href="#T3" title="https://purl.archive.org/domain/mtl#T3">T3</a>
+   </li>
+   <li>
+      <a href="#T4" title="https://purl.archive.org/domain/mtl#T4">T4</a>
+   </li>
+   <li>
+      <a href="#TreeDepth" title="https://purl.archive.org/domain/mtl#TreeDepth">TreeDepth</a>
+   </li>
+   <li>
+      <a href="#TreeImbalance"
+         title="https://purl.archive.org/domain/mtl#TreeImbalance">TreeImbalance</a>
+   </li>
+   <li>
+      <a href="#TreeShape" title="https://purl.archive.org/domain/mtl#TreeShape">TreeShape</a>
+   </li>
+   <li>
+      <a href="#TrimmedMeanParameter"
+         title="https://purl.archive.org/domain/mtl#TrimmedMeanParameter">
+         <span>Trimmed Mean Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#TrimmedMean" title="https://purl.archive.org/domain/mtl#TrimmedMean">TrimmedMean</a>
+   </li>
+   <li>
+      <a href="#VariableImportance"
+         title="https://purl.archive.org/domain/mtl#VariableImportance">VariableImportance</a>
+   </li>
+   <li>
+      <a href="#Variance" title="https://purl.archive.org/domain/mtl#Variance">Variance</a>
+   </li>
+   <li>
+      <a href="#VarianceParameter"
+         title="https://purl.archive.org/domain/mtl#VarianceParameter">
+         <span>Variance Parameter</span>
+      </a>
+   </li>
+   <li>
+      <a href="#WilksLambda" title="https://purl.archive.org/domain/mtl#WilksLambda">WilksLambda</a>
+   </li>
+   <li>
+      <a href="#WorstNode" title="https://purl.archive.org/domain/mtl#WorstNode">WorstNode</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#hasMetaObjective"
+         title="https://purl.archive.org/domain/mtl#hasMetaObjective">
+         <span>has Meta Objective</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasMetaOptimizer"
+         title="https://purl.archive.org/domain/mtl#hasMetaOptimizer">
+         <span>has Meta Optimizer</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasMetaRepresentation"
+         title="https://purl.archive.org/domain/mtl#hasMetaRepresentation">
+         <span>has Meta Representation</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasQuality" title="https://purl.archive.org/domain/mtl#hasQuality">
+         <span>has Quality</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasRootCause" title="https://purl.archive.org/domain/mtl#hasRootCause">
+         <span>has Root Cause</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dqv#inCategory" title="http://www.w3.org/ns/dqv#inCategory">
+         <span>in Category</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/ns/dqv#inDimension" title="http://www.w3.org/ns/dqv#inDimension">
+         <span>in Dimension</span>
+      </a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#hasBinValue" title="https://purl.archive.org/domain/mtl#hasBinValue">
+         <span>has Bin Value</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasLowerValue"
+         title="https://purl.archive.org/domain/mtl#hasLowerValue">
+         <span>has Lower Value</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasUpperValue"
+         title="https://purl.archive.org/domain/mtl#hasUpperValue">
+         <span>has Upper Value</span>
+      </a>
+   </li>
+</ul><iframe src="webvowl/index.html"></iframe> 
