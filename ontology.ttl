@@ -65,7 +65,11 @@
 :hasMetaRepresentation rdf:type owl:ObjectProperty ;
                        owl:inverseOf :isMetaRepresentationOf ;
                        rdfs:domain :MetaLearningAlgorithm ;
-                       rdfs:range :PerformanceMetrics ;
+                       rdfs:range [ rdf:type owl:Class ;
+                                    owl:unionOf ( <http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic>
+                                                  :PerformanceMetrics
+                                                )
+                                  ] ;
                        rdfs:comment "Meta-representation refers to a higher-level or more abstract representation that captures the characteristics or features of a dataset, model, or learning task in a way that is useful for meta-learning or transfer learning." .
 
 
@@ -96,6 +100,10 @@
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasDataValue
+<http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasDataValue> rdfs:range xsd:anyType .
+
 
 ###  http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasMaximumValue
 <http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasMaximumValue> rdf:type owl:FunctionalProperty .
@@ -1246,25 +1254,24 @@ This is also computed for weighted graph.""" ;
 ###  https://purl.archive.org/domain/mtl#LearningToTransfer
 :LearningToTransfer rdf:type owl:Class ;
                     rdfs:subClassOf :MetaLearningAlgorithm ,
+                                    [ rdf:type owl:Class ;
+                                      owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasMetaRepresentation ;
+                                                      owl:someValuesFrom <http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic>
+                                                    ]
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasMetaRepresentation ;
+                                                      owl:someValuesFrom :PerformanceMetrics
+                                                    ]
+                                                  )
+                                    ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty :hasMetaObjective ;
                                       owl:someValuesFrom <http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelingAlgorithm>
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty :hasMetaOptimizer ;
-                                      owl:someValuesFrom <http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelingAlgorithm>
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasMetaOptimizer ;
                                       owl:someValuesFrom <http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PatternDiscoveryAlgorithm>
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasMetaRepresentation ;
-                                      owl:someValuesFrom <http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic>
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasMetaRepresentation ;
-                                      owl:someValuesFrom :PerformanceMetrics
                                     ] ;
                     rdfs:comment "Here the meta-learning models are used to transfer the configurations from source to target task." ;
                     rdfs:label "LearningToTransfer" .
