@@ -19,7 +19,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid101",
@@ -37,7 +37,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid103",
@@ -46,7 +46,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid104",
@@ -55,7 +55,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid105",
@@ -64,28 +64,10 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid106",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
-  } ]
-}, {
-  "@id" : "_:genid107",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
-  } ]
-}, {
-  "@id" : "_:genid108",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
@@ -94,13 +76,45 @@
     "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
-  "@id" : "_:genid109",
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#RegressionQuality"
+  } ]
+}, {
+  "@id" : "_:genid108",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inCategory"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaQuality"
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#double"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#float"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#int"
+    } ]
   } ]
 }, {
   "@id" : "_:genid110",
@@ -118,7 +132,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
   } ]
 }, {
   "@id" : "_:genid112",
@@ -154,7 +168,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
   "@id" : "_:genid116",
@@ -163,111 +177,73 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid117",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid118",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://purl.archive.org/domain/mtl#LearningToOptimize"
-    }, {
-      "@id" : "_:genid120"
-    } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
+  } ]
+}, {
+  "@id" : "_:genid119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid120",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid122",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://purl.archive.org/domain/mtl#MetaLearningAlgorithm"
-    }, {
-      "@id" : "_:genid124"
-    } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
   } ]
 }, {
   "@id" : "_:genid124",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#addresses"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaLearningTask"
-  } ]
-}, {
-  "@id" : "_:genid126",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid127",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid128",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid129",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid130",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid131",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
-  } ]
-}, {
-  "@id" : "_:genid132",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
@@ -276,83 +252,175 @@
     "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid126",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
+  } ]
+}, {
+  "@id" : "_:genid130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
+  } ]
+}, {
   "@id" : "_:genid133",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid137"
-    }, {
-      "@id" : "_:genid135"
-    } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid135",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
   } ]
 }, {
   "@id" : "_:genid137",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
   } ]
 }, {
   "@id" : "_:genid138",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid142"
-    }, {
-      "@id" : "_:genid140"
-    } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
-  "@id" : "_:genid14",
-  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
-    }, {
-      "@id" : "http://www.w3.org/2001/XMLSchema#double"
-    }, {
-      "@id" : "http://www.w3.org/2001/XMLSchema#float"
-    }, {
-      "@id" : "http://www.w3.org/2001/XMLSchema#int"
-    } ]
+  "@id" : "_:genid139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid140",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaQuality"
+  } ]
+}, {
+  "@id" : "_:genid141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
   } ]
 }, {
   "@id" : "_:genid142",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid143",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MutualInformation"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#recommends"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid144",
@@ -361,16 +429,16 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid145",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
   } ]
 }, {
   "@id" : "_:genid146",
@@ -388,7 +456,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid148",
@@ -397,7 +465,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
   } ]
 }, {
   "@id" : "_:genid149",
@@ -406,7 +474,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
   } ]
 }, {
   "@id" : "_:genid150",
@@ -415,16 +483,16 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#RegressionQuality"
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
   } ]
 }, {
   "@id" : "_:genid151",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+    "@id" : "https://purl.archive.org/domain/mtl#Intrinsic"
   } ]
 }, {
   "@id" : "_:genid152",
@@ -433,45 +501,88 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
   } ]
 }, {
   "@id" : "_:genid153",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"
-    }, {
-      "@id" : "_:genid155"
-    } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
   } ]
 }, {
   "@id" : "_:genid155",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid156",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid157",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"
-    }, {
-      "@id" : "_:genid159"
-    } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
+  } ]
+}, {
+  "@id" : "_:genid158",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid159",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid161",
@@ -480,7 +591,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid162",
@@ -489,7 +600,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid163",
@@ -498,91 +609,10 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid164",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid165",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid166",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
-  "@id" : "_:genid167",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid168",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid169",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid170",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid171",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid172",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid173",
+  "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
@@ -591,148 +621,13 @@
     "@id" : "https://purl.archive.org/domain/mtl#Simple"
   } ]
 }, {
-  "@id" : "_:genid174",
+  "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid175",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid176",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid177",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid178",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid179",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid180",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid181",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid182",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid183",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
-  } ]
-}, {
-  "@id" : "_:genid184",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
-  } ]
-}, {
-  "@id" : "_:genid185",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid186",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid187",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid188",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid189",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
   "@id" : "_:genid19",
@@ -741,97 +636,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
-  } ]
-}, {
-  "@id" : "_:genid190",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid191",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaQuality"
-  } ]
-}, {
-  "@id" : "_:genid192",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
-  } ]
-}, {
-  "@id" : "_:genid193",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid194",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Relief"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#recommends"
-  } ]
-}, {
-  "@id" : "_:genid195",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
-  } ]
-}, {
-  "@id" : "_:genid196",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid197",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid198",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid199",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
   } ]
 }, {
   "@id" : "_:genid20",
@@ -843,196 +648,7 @@
     "@id" : "https://purl.archive.org/domain/mtl#Simple"
   } ]
 }, {
-  "@id" : "_:genid200",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid201",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid202",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
-  } ]
-}, {
-  "@id" : "_:genid203",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
-  } ]
-}, {
-  "@id" : "_:genid204",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
-  } ]
-}, {
-  "@id" : "_:genid205",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Intrinsic"
-  } ]
-}, {
-  "@id" : "_:genid206",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid207",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid208",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid209",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
   "@id" : "_:genid21",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid210",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid211",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid212",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid213",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid214",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
-  } ]
-}, {
-  "@id" : "_:genid215",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid216",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid217",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
-  } ]
-}, {
-  "@id" : "_:genid22",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid23",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid24",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasMaximumValue"
@@ -1041,13 +657,40 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "_:genid25",
+  "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasMinimumValue"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
   } ]
 }, {
   "@id" : "_:genid26",
@@ -1065,7 +708,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
+    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
   "@id" : "_:genid28",
@@ -1074,7 +717,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid29",
@@ -1083,7 +726,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
   } ]
 }, {
   "@id" : "_:genid30",
@@ -1092,7 +735,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
   } ]
 }, {
   "@id" : "_:genid31",
@@ -1101,7 +744,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
   } ]
 }, {
   "@id" : "_:genid32",
@@ -1110,7 +753,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid33",
@@ -1119,7 +762,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
   } ]
 }, {
   "@id" : "_:genid34",
@@ -1128,7 +771,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
   } ]
 }, {
   "@id" : "_:genid35",
@@ -1137,74 +780,10 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
   } ]
 }, {
   "@id" : "_:genid36",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid40"
-    }, {
-      "@id" : "_:genid38"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid38",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid40",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid41",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
-  } ]
-}, {
-  "@id" : "_:genid42",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ChiSquare"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#recommends"
-  } ]
-}, {
-  "@id" : "_:genid43",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
-  } ]
-}, {
-  "@id" : "_:genid44",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
-  } ]
-}, {
-  "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
@@ -1213,16 +792,7 @@
     "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
   } ]
 }, {
-  "@id" : "_:genid46",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
-  } ]
-}, {
-  "@id" : "_:genid47",
+  "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inCategory"
@@ -1231,13 +801,103 @@
     "@id" : "https://purl.archive.org/domain/mtl#MetaQuality"
   } ]
 }, {
-  "@id" : "_:genid48",
+  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Intrinsic"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Intrinsic"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid49",
@@ -1255,16 +915,16 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Intrinsic"
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid52",
@@ -1273,7 +933,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Intrinsic"
+    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
   } ]
 }, {
   "@id" : "_:genid53",
@@ -1291,7 +951,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
   } ]
 }, {
   "@id" : "_:genid55",
@@ -1309,7 +969,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
   "@id" : "_:genid57",
@@ -1318,7 +978,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
   } ]
 }, {
   "@id" : "_:genid58",
@@ -1327,7 +987,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
   } ]
 }, {
   "@id" : "_:genid59",
@@ -1336,231 +996,10 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
   } ]
 }, {
   "@id" : "_:genid6",
-  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.w3.org/2001/XMLSchema#anyType"
-    }, {
-      "@id" : "http://www.w3.org/2001/XMLSchema#float"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid60",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid61",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid62",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid63",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid64",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
-  } ]
-}, {
-  "@id" : "_:genid65",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GraphBased"
-  } ]
-}, {
-  "@id" : "_:genid66",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
-  } ]
-}, {
-  "@id" : "_:genid67",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
-  } ]
-}, {
-  "@id" : "_:genid68",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
-  } ]
-}, {
-  "@id" : "_:genid69",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid70",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid71",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
-  } ]
-}, {
-  "@id" : "_:genid72",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid76"
-    }, {
-      "@id" : "_:genid74"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid74",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid76",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid77",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
-  } ]
-}, {
-  "@id" : "_:genid78",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#FCBF"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#recommends"
-  } ]
-}, {
-  "@id" : "_:genid79",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"
-    }, {
-      "@id" : "_:genid81"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid81",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
-  } ]
-}, {
-  "@id" : "_:genid83",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"
-    }, {
-      "@id" : "_:genid85"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid85",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid87",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inDimension"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Simple"
-  } ]
-}, {
-  "@id" : "_:genid88",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "_:genid92"
-    }, {
-      "@id" : "_:genid90"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid9",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -1574,40 +1013,285 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid90",
+  "@id" : "_:genid60",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Simple"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ImageBased"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaQuality"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#Complexity"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ClassificationQuality"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.archive.org/domain/mtl#LearningToOptimize"
+    }, {
+      "@id" : "_:genid88"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.archive.org/domain/mtl#MetaLearningAlgorithm"
+    }, {
+      "@id" : "_:genid92"
+    } ]
   } ]
 }, {
   "@id" : "_:genid92",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount"
-  } ]
-}, {
-  "@id" : "_:genid93",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"
+    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#addresses"
   } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime"
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#MetaLearningTask"
   } ]
 }, {
   "@id" : "_:genid94",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#GainRatio"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#recommends"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid95",
@@ -1616,16 +1300,16 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid96",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid97",
@@ -1634,7 +1318,7 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid98",
@@ -1643,22 +1327,34 @@
     "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#Statistical"
+    "@id" : "https://purl.archive.org/domain/mtl#ModelBased"
   } ]
 }, {
   "@id" : "_:genid99",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#inCategory"
+    "@id" : "http://www.w3.org/ns/dqv#inDimension"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#MetaFeatures"
+    "@id" : "https://purl.archive.org/domain/mtl#Landmarking"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/termscontributor",
@@ -1703,7 +1399,7 @@
     "@value" : "NoiseSignalRatio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid19"
+    "@id" : "_:genid16"
   } ]
 }, {
   "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#NumberOfCategoricalFeatures",
@@ -1717,7 +1413,7 @@
     "@value" : "NumberOfCategoricalFeatures"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid20"
+    "@id" : "_:genid17"
   } ]
 }, {
   "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#NumberOfFeatures",
@@ -1731,7 +1427,7 @@
     "@value" : "NumberOfFeatures"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid21"
+    "@id" : "_:genid18"
   } ]
 }, {
   "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#NumberOfInstances",
@@ -1745,7 +1441,7 @@
     "@value" : "NumberOfInstances"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid22"
+    "@id" : "_:genid19"
   } ]
 }, {
   "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#ProportionOfInstancesPerFeature",
@@ -1762,35 +1458,14 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid23"
-  } ]
-}, {
-  "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High",
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#TimeToSelectFeatures"
-  }, {
-    "@id" : "https://purl.archive.org/domain/mtl#TotalFeatures"
-  } ]
-}, {
-  "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low",
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#TimeToSelectFeatures"
-  }, {
-    "@id" : "https://purl.archive.org/domain/mtl#TotalFeatures"
-  } ]
-}, {
-  "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium",
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.archive.org/domain/mtl#TimeToSelectFeatures"
-  }, {
-    "@id" : "https://purl.archive.org/domain/mtl#TotalFeatures"
+    "@id" : "_:genid20"
   } ]
 }, {
   "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid24"
+    "@id" : "_:genid21"
   }, {
-    "@id" : "_:genid25"
+    "@id" : "_:genid22"
   } ]
 }, {
   "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasDataValue",
@@ -1895,18 +1570,18 @@
 }, {
   "@id" : "https://purl.archive.org/domain/mtl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/contributor" : [ {
+  "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Bojan Bozic"
   }, {
     "@value" : "Luca Longo"
   } ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
+  "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Aparna Nayak"
   } ],
-  "http://purl.org/dc/elements/1.1/rights" : [ {
-    "@value" : "https://creativecommons.org/licenses/by-nc/4.0/"
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
-  "http://purl.org/dc/elements/1.1/title" : [ {
+  "http://purl.org/dc/terms/title" : [ {
     "@value" : "Meta Learning Ontology"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1973,7 +1648,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid26"
+    "@id" : "_:genid23"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#AttributeConcentration",
@@ -1990,7 +1665,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid27"
+    "@id" : "_:genid24"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#AttributeConcentrationParameter",
@@ -2016,7 +1691,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid28"
+    "@id" : "_:genid25"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#AttributesEntropyParameter",
@@ -2042,7 +1717,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid29"
+    "@id" : "_:genid26"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#BatchSize",
@@ -2065,7 +1740,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid30"
+    "@id" : "_:genid27"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#BetweennessCentrality",
@@ -2082,7 +1757,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid31"
+    "@id" : "_:genid28"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#BoundaryComplexity",
@@ -2096,7 +1771,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid32"
+    "@id" : "_:genid29"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#C1",
@@ -2110,7 +1785,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid33"
+    "@id" : "_:genid30"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#C2",
@@ -2124,7 +1799,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid34"
+    "@id" : "_:genid31"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#CanonicalCorrelation",
@@ -2141,7 +1816,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid35"
+    "@id" : "_:genid32"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ChiSquare",
@@ -2154,12 +1829,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"
-  }, {
-    "@id" : "_:genid36"
-  }, {
-    "@id" : "_:genid41"
-  }, {
-    "@id" : "_:genid42"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClassConcentration",
@@ -2176,7 +1845,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid43"
+    "@id" : "_:genid33"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClassEntropy",
@@ -2193,7 +1862,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid44"
+    "@id" : "_:genid34"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClassEntropyParameter",
@@ -2216,7 +1885,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid45"
+    "@id" : "_:genid35"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClassImbalanceRootcause",
@@ -2242,7 +1911,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid46"
+    "@id" : "_:genid36"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClassOverlapRootcause",
@@ -2270,7 +1939,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid47"
+    "@id" : "_:genid37"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClassifierRecommendation",
@@ -2293,7 +1962,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid48"
+    "@id" : "_:genid38"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ClusteringCoefficient",
@@ -2310,7 +1979,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid49"
+    "@id" : "_:genid39"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Completeness",
@@ -2327,7 +1996,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid50"
+    "@id" : "_:genid40"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#CompletenessRootcause",
@@ -2353,7 +2022,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid51"
+    "@id" : "_:genid41"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Conciseness",
@@ -2370,7 +2039,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid52"
+    "@id" : "_:genid42"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Constraint",
@@ -2387,7 +2056,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid53"
+    "@id" : "_:genid43"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Contrast",
@@ -2404,7 +2073,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid54"
+    "@id" : "_:genid44"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Coreness",
@@ -2421,7 +2090,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid55"
+    "@id" : "_:genid45"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Correlation",
@@ -2438,7 +2107,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid56"
+    "@id" : "_:genid46"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#CorrelationDegreeCentrality",
@@ -2455,7 +2124,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid57"
+    "@id" : "_:genid47"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#CorrelationParameter",
@@ -2481,7 +2150,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid58"
+    "@id" : "_:genid48"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#CovarianceParameter",
@@ -2537,7 +2206,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid59"
+    "@id" : "_:genid49"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Diameter",
@@ -2554,7 +2223,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid60"
+    "@id" : "_:genid50"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Diversity",
@@ -2571,7 +2240,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid61"
+    "@id" : "_:genid51"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Eccentricity",
@@ -2588,7 +2257,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid62"
+    "@id" : "_:genid52"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#EdgeDensity",
@@ -2605,7 +2274,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid63"
+    "@id" : "_:genid53"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#EigenValues",
@@ -2622,7 +2291,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid64"
+    "@id" : "_:genid54"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#EigenValuesParameter",
@@ -2648,7 +2317,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid65"
+    "@id" : "_:genid55"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#EliteNNPerformance",
@@ -2662,7 +2331,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid66"
+    "@id" : "_:genid56"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Energy",
@@ -2679,7 +2348,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid67"
+    "@id" : "_:genid57"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#EqNumberOfAttributes",
@@ -2696,7 +2365,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid68"
+    "@id" : "_:genid58"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#EqNumberOfAttributesParameter",
@@ -2719,7 +2388,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid69"
+    "@id" : "_:genid59"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#F1Score",
@@ -2745,7 +2414,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid70"
+    "@id" : "_:genid60"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#F2",
@@ -2783,7 +2452,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid71"
+    "@id" : "_:genid61"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#FCBF",
@@ -2796,29 +2465,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"
-  }, {
-    "@id" : "_:genid72"
-  }, {
-    "@id" : "_:genid77"
-  }, {
-    "@id" : "_:genid78"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#FSTechniques",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-region"
-  } ]
-}, {
-  "@id" : "https://purl.archive.org/domain/mtl#FastCorrelationBasedFilter",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid79"
-  }, {
-    "@id" : "_:genid83"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation",
@@ -2847,19 +2499,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid87"
+    "@id" : "_:genid62"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#GRRecommendation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"
-  }, {
-    "@id" : "_:genid88"
-  }, {
-    "@id" : "_:genid93"
-  }, {
-    "@id" : "_:genid94"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#GainRatio",
@@ -2891,7 +2537,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid95"
+    "@id" : "_:genid63"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#GeometricMeanParameter",
@@ -2917,7 +2563,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid96"
+    "@id" : "_:genid64"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Gravity",
@@ -2934,7 +2580,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid97"
+    "@id" : "_:genid65"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#HarmonicMean",
@@ -2951,7 +2597,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid98"
+    "@id" : "_:genid66"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#HarmonicMeanParameter",
@@ -3001,7 +2647,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid99"
+    "@id" : "_:genid67"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ImgCorrelation",
@@ -3018,7 +2664,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid100"
+    "@id" : "_:genid68"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ImgDiffEntropy",
@@ -3035,7 +2681,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid101"
+    "@id" : "_:genid69"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ImgDiffVariance",
@@ -3052,7 +2698,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid102"
+    "@id" : "_:genid70"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ImgEntropy",
@@ -3069,7 +2715,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid103"
+    "@id" : "_:genid71"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ImgHomogeneity",
@@ -3086,7 +2732,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid104"
+    "@id" : "_:genid72"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ImgVariance",
@@ -3103,7 +2749,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid105"
+    "@id" : "_:genid73"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#InformationTheoretical",
@@ -3117,7 +2763,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid106"
+    "@id" : "_:genid74"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#InformationalMeasureCorrelation",
@@ -3134,7 +2780,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid107"
+    "@id" : "_:genid75"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#InterquartileRange",
@@ -3151,7 +2797,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid108"
+    "@id" : "_:genid76"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#InterquartileRangeParameter",
@@ -3174,7 +2820,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid109"
+    "@id" : "_:genid77"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#JointEntropy",
@@ -3191,7 +2837,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid110"
+    "@id" : "_:genid78"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Kernel",
@@ -3217,7 +2863,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid111"
+    "@id" : "_:genid79"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#KurtosisParameter",
@@ -3240,7 +2886,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid112"
+    "@id" : "_:genid80"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#L2",
@@ -3254,7 +2900,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid113"
+    "@id" : "_:genid81"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#L3",
@@ -3268,7 +2914,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid114"
+    "@id" : "_:genid82"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LSC",
@@ -3282,7 +2928,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid115"
+    "@id" : "_:genid83"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LabelNoise",
@@ -3296,7 +2942,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid116"
+    "@id" : "_:genid84"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LabelNoiseRootcause",
@@ -3322,7 +2968,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid117"
+    "@id" : "_:genid85"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LearningFromModelEvaluation",
@@ -3349,7 +2995,7 @@
     "@id" : "https://purl.archive.org/domain/mtl#LearningToOptimize"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid118"
+    "@id" : "_:genid86"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LearningRate",
@@ -3373,7 +3019,7 @@
     "@id" : "https://purl.archive.org/domain/mtl#MetaLearningAlgorithm"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid122"
+    "@id" : "_:genid90"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Leaves",
@@ -3390,7 +3036,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid126"
+    "@id" : "_:genid94"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LeavesBranch",
@@ -3407,7 +3053,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid127"
+    "@id" : "_:genid95"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LeavesCorroboration",
@@ -3424,7 +3070,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid128"
+    "@id" : "_:genid96"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LeavesHomogeneity",
@@ -3441,7 +3087,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid129"
+    "@id" : "_:genid97"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LeavesPerClass",
@@ -3458,7 +3104,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid130"
+    "@id" : "_:genid98"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LinearDiscriminantClassifier",
@@ -3472,7 +3118,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid131"
+    "@id" : "_:genid99"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#LocalScan",
@@ -3489,7 +3135,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid132"
+    "@id" : "_:genid100"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MAE",
@@ -3508,12 +3154,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"
-  }, {
-    "@id" : "_:genid133"
-  }, {
-    "@id" : "_:genid138"
-  }, {
-    "@id" : "_:genid143"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MaxDepth",
@@ -3557,7 +3197,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid144"
+    "@id" : "_:genid101"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MaximumOfAttributes",
@@ -3574,7 +3214,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid145"
+    "@id" : "_:genid102"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MaximumOfAttributesParameter",
@@ -3612,7 +3252,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid146"
+    "@id" : "_:genid103"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MeanOfAttributesParameter",
@@ -3638,7 +3278,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid147"
+    "@id" : "_:genid104"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MedianAbsoluteDeviationParameter",
@@ -3664,7 +3304,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid148"
+    "@id" : "_:genid105"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MedianOfAttributesParameter",
@@ -3764,7 +3404,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid149"
+    "@id" : "_:genid106"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MinimumOfAttributesParameter",
@@ -3787,7 +3427,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid150"
+    "@id" : "_:genid107"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ModelBased",
@@ -3801,7 +3441,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid151"
+    "@id" : "_:genid108"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Modularity",
@@ -3818,18 +3458,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid152"
-  } ]
-}, {
-  "@id" : "https://purl.archive.org/domain/mtl#MutualInfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid153"
-  }, {
-    "@id" : "_:genid157"
+    "@id" : "_:genid109"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#MutualInformation",
@@ -3849,7 +3478,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid161"
+    "@id" : "_:genid110"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#N1",
@@ -3863,7 +3492,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid162"
+    "@id" : "_:genid111"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#N2",
@@ -3877,7 +3506,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid163"
+    "@id" : "_:genid112"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#N3",
@@ -3891,7 +3520,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid164"
+    "@id" : "_:genid113"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#N4",
@@ -3905,7 +3534,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid165"
+    "@id" : "_:genid114"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NaiveBayesPerfomance",
@@ -3919,7 +3548,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid166"
+    "@id" : "_:genid115"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Nodes",
@@ -3936,7 +3565,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid167"
+    "@id" : "_:genid116"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NodesPerAttributes",
@@ -3953,7 +3582,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid168"
+    "@id" : "_:genid117"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NodesPerInstances",
@@ -3970,7 +3599,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid169"
+    "@id" : "_:genid118"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NodesPerLevel",
@@ -3987,7 +3616,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid170"
+    "@id" : "_:genid119"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NodesRepeated",
@@ -4004,7 +3633,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid171"
+    "@id" : "_:genid120"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NoiseSignalRatioParameter",
@@ -4030,7 +3659,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid172"
+    "@id" : "_:genid121"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfAttrwithNormalDistributionParameter",
@@ -4056,7 +3685,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid173"
+    "@id" : "_:genid122"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfBinaryAttributesParameter",
@@ -4082,7 +3711,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid174"
+    "@id" : "_:genid123"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfClassesParameter",
@@ -4117,7 +3746,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid175"
+    "@id" : "_:genid124"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfDiscriminantFunctions",
@@ -4134,7 +3763,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid176"
+    "@id" : "_:genid125"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfEdges",
@@ -4151,7 +3780,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid177"
+    "@id" : "_:genid126"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfEpochs",
@@ -4186,7 +3815,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid178"
+    "@id" : "_:genid127"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfHighlyCorrelatedAttributes",
@@ -4203,7 +3832,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid179"
+    "@id" : "_:genid128"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfHighlyCorrelatedAttributesParameters",
@@ -4256,7 +3885,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid180"
+    "@id" : "_:genid129"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfNumericAttributesParameter",
@@ -4284,7 +3913,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid181"
+    "@id" : "_:genid130"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#NumberOfOutliersParameter",
@@ -4310,7 +3939,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid182"
+    "@id" : "_:genid131"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#OneNNPerformance",
@@ -4324,7 +3953,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid183"
+    "@id" : "_:genid132"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#OutlierDetection",
@@ -4338,7 +3967,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid184"
+    "@id" : "_:genid133"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#OutliersRootcause",
@@ -4367,7 +3996,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid185"
+    "@id" : "_:genid134"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Penalty",
@@ -4417,7 +4046,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid186"
+    "@id" : "_:genid135"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ProportionOfAttrToInstancesParameter",
@@ -4443,7 +4072,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid187"
+    "@id" : "_:genid136"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#ProportionOfInstancesPerFeatureParameter",
@@ -4466,7 +4095,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid188"
+    "@id" : "_:genid137"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#RMSE",
@@ -4492,7 +4121,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid189"
+    "@id" : "_:genid138"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Range",
@@ -4509,7 +4138,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid190"
+    "@id" : "_:genid139"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#RangeParameter",
@@ -4546,7 +4175,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid191"
+    "@id" : "_:genid140"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#RegularizationStrength",
@@ -4565,12 +4194,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"
-  }, {
-    "@id" : "_:genid192"
-  }, {
-    "@id" : "_:genid193"
-  }, {
-    "@id" : "_:genid194"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#RootCauseAnalysis",
@@ -4596,7 +4219,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid195"
+    "@id" : "_:genid141"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Skewness",
@@ -4613,7 +4236,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid196"
+    "@id" : "_:genid142"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SkewnessParameter",
@@ -4648,7 +4271,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid197"
+    "@id" : "_:genid143"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SparsityParameter",
@@ -4674,7 +4297,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid198"
+    "@id" : "_:genid144"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Statistical",
@@ -4688,7 +4311,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/dqv#Dimension"
   }, {
-    "@id" : "_:genid199"
+    "@id" : "_:genid145"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#StdDev",
@@ -4717,7 +4340,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid200"
+    "@id" : "_:genid146"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#StdDevOfAttributesParameter",
@@ -4743,7 +4366,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid201"
+    "@id" : "_:genid147"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SumAverage",
@@ -4760,7 +4383,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid202"
+    "@id" : "_:genid148"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SumEntropy",
@@ -4777,7 +4400,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid203"
+    "@id" : "_:genid149"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SumVariance",
@@ -4794,7 +4417,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid204"
+    "@id" : "_:genid150"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SyntaxAccuracy",
@@ -4811,7 +4434,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purl.archive.org/domain/mtl#DataSetQuality"
   }, {
-    "@id" : "_:genid205"
+    "@id" : "_:genid151"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#SyntaxAccuracyRootcause",
@@ -4837,7 +4460,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid206"
+    "@id" : "_:genid152"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#T2",
@@ -4851,7 +4474,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid207"
+    "@id" : "_:genid153"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#T3",
@@ -4865,7 +4488,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid208"
+    "@id" : "_:genid154"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#T4",
@@ -4879,19 +4502,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid209"
-  } ]
-}, {
-  "@id" : "https://purl.archive.org/domain/mtl#TimeToSelectFeatures",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#AlgorithmCharacteristic"
-  } ]
-}, {
-  "@id" : "https://purl.archive.org/domain/mtl#TotalFeatures",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#AlgorithmCharacteristic"
+    "@id" : "_:genid155"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#TreeDepth",
@@ -4908,7 +4519,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid210"
+    "@id" : "_:genid156"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#TreeImbalance",
@@ -4925,7 +4536,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid211"
+    "@id" : "_:genid157"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#TreeShape",
@@ -4942,7 +4553,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid212"
+    "@id" : "_:genid158"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#TrimmedMean",
@@ -4959,7 +4570,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid213"
+    "@id" : "_:genid159"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#TrimmedMeanParameter",
@@ -4985,7 +4596,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid214"
+    "@id" : "_:genid160"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#Variance",
@@ -5002,7 +4613,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid215"
+    "@id" : "_:genid161"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#VarianceParameter",
@@ -5028,7 +4639,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid216"
+    "@id" : "_:genid162"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#WorkflowRecommendation",
@@ -5054,7 +4665,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"
   }, {
-    "@id" : "_:genid217"
+    "@id" : "_:genid163"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#hasBinValue",
@@ -5070,31 +4681,7 @@
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#hasDatavalue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid6"
-  } ]
-}, {
-  "@id" : "https://purl.archive.org/domain/mtl#hasExecutionTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low-Medium-High"
-  } ]
-}, {
-  "@id" : "https://purl.archive.org/domain/mtl#hasFeatureCount",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FeatureSelectionAlgorithm"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low-Medium-High"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#hasLowerValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
@@ -5102,7 +4689,7 @@
     "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid9"
+    "@id" : "_:genid6"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#hasQuality",
@@ -5135,7 +4722,7 @@
     "@id" : "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid14"
+    "@id" : "_:genid11"
   } ]
 }, {
   "@id" : "https://purl.archive.org/domain/mtl#inherentIn",

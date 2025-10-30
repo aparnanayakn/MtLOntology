@@ -10,14 +10,15 @@
      xmlns:DMOP="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owlapi="http://www.semanticweb.org/owlapi#">
     <owl:Ontology rdf:about="https://purl.archive.org/domain/mtl">
         <owl:imports rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl"/>
-        <dc:contributor>Bojan Bozic</dc:contributor>
-        <dc:contributor>Luca Longo</dc:contributor>
-        <dc:creator>Aparna Nayak</dc:creator>
-        <dc:rights>https://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
-        <dc:title>Meta Learning Ontology</dc:title>
+        <terms:contributor>Bojan Bozic</terms:contributor>
+        <terms:contributor>Luca Longo</terms:contributor>
+        <terms:creator>Aparna Nayak</terms:creator>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:title>Meta Learning Ontology</terms:title>
         <rdfs:comment>Meta-learning, often referred to as &quot;learning to learn,&quot; is an emerging paradigm in machine learning that focuses on improving the ability of models to adapt to new tasks quickly with limited data. This approach leverages previous experiences to enhance learning processes, enabling models to generalise better across diverse tasks. The purpose of developing a meta-learning ontology is to create a formal and standardised representation of the concepts, relationships, and approaches in this field. This will enable a better organised and compatible framework for study and application.</rdfs:comment>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</owl:versionInfo>
     </owl:Ontology>
@@ -82,6 +83,34 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -177,26 +206,6 @@
         <rdfs:domain rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment>Relates a data characteristic/quality metric to its corresponding dimension.</rdfs:comment>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://purl.archive.org/domain/mtl#hasExecutionTime -->
-
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/mtl#hasExecutionTime">
-        <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"/>
-        <rdfs:range rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low-Medium-High"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://purl.archive.org/domain/mtl#hasFeatureCount -->
-
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/mtl#hasFeatureCount">
-        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FeatureSelectionAlgorithm"/>
-        <rdfs:range rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low-Medium-High"/>
     </owl:ObjectProperty>
     
 
@@ -338,17 +347,7 @@
     <!-- https://purl.archive.org/domain/mtl#hasDatavalue -->
 
 
-    <owl:DatatypeProperty rdf:about="https://purl.archive.org/domain/mtl#hasDatavalue">
-        <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#region"/>
-        <rdfs:range>
-            <rdfs:Datatype>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyType"/>
-                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
-                </owl:unionOf>
-            </rdfs:Datatype>
-        </rdfs:range>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/domain/mtl#hasDatavalue"/>
     
 
 
@@ -789,32 +788,6 @@ Multi-valued: Min, Max, Average, Median</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/mtl#ChisquareRecommendation">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#recommends"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/domain/mtl#ChiSquare"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1527,32 +1500,6 @@ This is also computed for weighted graph.</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/mtl#FCBFRecommendation">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#recommends"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/domain/mtl#FCBF"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1562,37 +1509,6 @@ This is also computed for weighted graph.</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/mtl#FSTechniques">
         <rdfs:subClassOf rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-region"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/mtl#FastCorrelationBasedFilter -->
-
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/mtl#FastCorrelationBasedFilter">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"/>
     </owl:Class>
     
 
@@ -1638,32 +1554,6 @@ This is also computed for weighted graph.</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/mtl#GRRecommendation">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#recommends"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/domain/mtl#GainRatio"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2382,40 +2272,6 @@ Multivalued: Min, Max, Average, Median and Mode.</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/mtl#MIRecommendation">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#recommends"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/domain/mtl#MutualInformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2748,37 +2604,6 @@ Multivalued: Min, Max, Average, Median and Mode.</rdfs:comment>
         <rdfs:comment>Corresponds to the modularity score, i.e., how modular is a given division of a graph into subgraphs (communities). A simple way to detect communities is through the use of the fast greedy modularity optimization algorithm.</rdfs:comment>
         <rdfs:isDefinedBy>Automatic recommendation of feature selection algorithms based on dataset characteristics - https://doi.org/10.1016/j.eswa.2021.115589</rdfs:isDefinedBy>
         <rdfs:label>Modularity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/mtl#MutualInfo -->
-
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/mtl#MutualInfo">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                        <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FilterFSAlgorithm"/>
     </owl:Class>
     
 
@@ -3571,24 +3396,6 @@ Multivalued: Min, Max, Average and Median. This is also computed for weighted gr
 
     <owl:Class rdf:about="https://purl.archive.org/domain/mtl#ReliefRecommendation">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/mtl#FeatureSelectionRecommendation"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasExecutionTime"/>
-                <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#hasFeatureCount"/>
-                <owl:hasValue rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/mtl#recommends"/>
-                <owl:hasValue rdf:resource="https://purl.archive.org/domain/mtl#Relief"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -3933,24 +3740,6 @@ Multi-valued: Min, Max, Average, Median</rdfs:comment>
     
 
 
-    <!-- https://purl.archive.org/domain/mtl#TimeToSelectFeatures -->
-
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/mtl#TimeToSelectFeatures">
-        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#AlgorithmCharacteristic"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/mtl#TotalFeatures -->
-
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/mtl#TotalFeatures">
-        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#AlgorithmCharacteristic"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/domain/mtl#TreeDepth -->
 
 
@@ -4141,36 +3930,6 @@ Multi-valued: Min, Max, Average, Median</rdfs:comment>
      -->
 
 
-    
-
-
-    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High -->
-
-
-    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#High">
-        <rdf:type rdf:resource="https://purl.archive.org/domain/mtl#TimeToSelectFeatures"/>
-        <rdf:type rdf:resource="https://purl.archive.org/domain/mtl#TotalFeatures"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low -->
-
-
-    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Low">
-        <rdf:type rdf:resource="https://purl.archive.org/domain/mtl#TimeToSelectFeatures"/>
-        <rdf:type rdf:resource="https://purl.archive.org/domain/mtl#TotalFeatures"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium -->
-
-
-    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Medium">
-        <rdf:type rdf:resource="https://purl.archive.org/domain/mtl#TimeToSelectFeatures"/>
-        <rdf:type rdf:resource="https://purl.archive.org/domain/mtl#TotalFeatures"/>
-    </rdf:Description>
     
 
 
